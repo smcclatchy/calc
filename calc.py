@@ -7,5 +7,4 @@ def compute(input_string):
     if operator == '+':
         return num0 + num1
     else:
-        print('Unknown operator!')
-        return 0
+        raise ValueError('Unknown operator!')
