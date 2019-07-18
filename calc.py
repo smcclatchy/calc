@@ -14,6 +14,8 @@ def compute(input_string):
         return num0 - num1
     elif operator == '*':
         return num0 * num1
+    elif operator == '/':
+        return num0 / num1
     else:
         msg = f"Unknown operator: '{operator}'\n"
         msg += "choose from '+' and '-'."
