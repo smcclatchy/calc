@@ -1,6 +1,6 @@
 def compute(input_string):
     """Perform simple arithmetic based on string input.
-    
+    Use int or float on any operator.
     Example: '5 + 7' -> 12
     """
     values = input_string.split(' ')
