@@ -1,4 +1,8 @@
 def compute(input_string):
+    """Perform simple arithmetic based on string input.
+    
+    Example: '5 + 7' -> 12
+    """
     values = input_string.split(' ')
     num0 = int(values[0])
     operator = values[1]
