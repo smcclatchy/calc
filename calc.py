@@ -9,4 +9,5 @@ def compute(input_string):
     elif operator == '-':
         return num0 - num1
     else:
-        raise ValueError('Unknown operator!')
+        msg = f"Unknown operator: '{operator}'"
+        raise ValueError(msg)
